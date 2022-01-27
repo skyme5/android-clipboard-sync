@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private static final boolean DEBUG = true;
     public static final MediaType MEDIA_TYPE_JSON
             = MediaType.parse("application/json; charset=utf-8");
-    private static final String POST_URL = "http://192.168.0.100/api/v2/tiktok/share";
+    private static final String POST_URL = "http://192.168.0.100/api/v2/clipboard/share";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
